@@ -15,6 +15,12 @@
 		4A6B9D542A08B81200C7E119 /* OnboardingWhereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B9D532A08B81200C7E119 /* OnboardingWhereViewController.swift */; };
 		4A6B9D592A08B91700C7E119 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B9D582A08B91700C7E119 /* UIView+.swift */; };
 		4A6B9D5B2A08C43500C7E119 /* OnboardingHowMuchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B9D5A2A08C43500C7E119 /* OnboardingHowMuchViewController.swift */; };
+		4A6B9D5E2A08E3CA00C7E119 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B9D5D2A08E3CA00C7E119 /* HomeViewController.swift */; };
+		4A6B9D602A08E41500C7E119 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B9D5F2A08E41500C7E119 /* TabBarController.swift */; };
+		4A6B9D622A08E53300C7E119 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B9D612A08E53300C7E119 /* CalendarViewController.swift */; };
+		4A6B9D642A08E58E00C7E119 /* ChattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B9D632A08E58E00C7E119 /* ChattingViewController.swift */; };
+		4A6B9D662A08E5C500C7E119 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B9D652A08E5C500C7E119 /* CommunityViewController.swift */; };
+		4A6B9D682A08E5E400C7E119 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B9D672A08E5E400C7E119 /* MyPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		4A6B9D532A08B81200C7E119 /* OnboardingWhereViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWhereViewController.swift; sourceTree = "<group>"; };
 		4A6B9D582A08B91700C7E119 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		4A6B9D5A2A08C43500C7E119 /* OnboardingHowMuchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingHowMuchViewController.swift; sourceTree = "<group>"; };
+		4A6B9D5D2A08E3CA00C7E119 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4A6B9D5F2A08E41500C7E119 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4A6B9D612A08E53300C7E119 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		4A6B9D632A08E58E00C7E119 /* ChattingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingViewController.swift; sourceTree = "<group>"; };
+		4A6B9D652A08E5C500C7E119 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		4A6B9D672A08E5E400C7E119 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				4A6B9D572A08B81F00C7E119 /* Onboarding */,
+				4A6B9D5C2A08E3B900C7E119 /* TabBar */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -87,6 +100,19 @@
 				4A6B9D5A2A08C43500C7E119 /* OnboardingHowMuchViewController.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4A6B9D5C2A08E3B900C7E119 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4A6B9D5F2A08E41500C7E119 /* TabBarController.swift */,
+				4A6B9D5D2A08E3CA00C7E119 /* HomeViewController.swift */,
+				4A6B9D612A08E53300C7E119 /* CalendarViewController.swift */,
+				4A6B9D632A08E58E00C7E119 /* ChattingViewController.swift */,
+				4A6B9D652A08E5C500C7E119 /* CommunityViewController.swift */,
+				4A6B9D672A08E5E400C7E119 /* MyPageViewController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,10 +186,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A6B9D5B2A08C43500C7E119 /* OnboardingHowMuchViewController.swift in Sources */,
+				4A6B9D602A08E41500C7E119 /* TabBarController.swift in Sources */,
 				4A6B9D412A08B43300C7E119 /* ViewController.swift in Sources */,
+				4A6B9D682A08E5E400C7E119 /* MyPageViewController.swift in Sources */,
 				4A6B9D3D2A08B43300C7E119 /* AppDelegate.swift in Sources */,
 				4A6B9D542A08B81200C7E119 /* OnboardingWhereViewController.swift in Sources */,
 				4A6B9D3F2A08B43300C7E119 /* SceneDelegate.swift in Sources */,
+				4A6B9D642A08E58E00C7E119 /* ChattingViewController.swift in Sources */,
+				4A6B9D622A08E53300C7E119 /* CalendarViewController.swift in Sources */,
+				4A6B9D5E2A08E3CA00C7E119 /* HomeViewController.swift in Sources */,
+				4A6B9D662A08E5C500C7E119 /* CommunityViewController.swift in Sources */,
 				4A6B9D592A08B91700C7E119 /* UIView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
